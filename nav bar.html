@@ -11,41 +11,44 @@
     <title>Nav bar</title>
   </head>
   <body class="bg-dark">
-    <nav class="navbar navbar-expand-md navbar-thick">
-        <button class="navbar-toggler" data-target="#123" data-toggle="collapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-md ">
         <a class="navbar-brand text-success" href="">
             <i class="fa fa-leaf " aria-hidden="true"></i>Organic Food 
         </a>
-        <div class="collapse navbar-collapse m-auto" id="123">   
+        <a class="navbar-toggler" href="#" data-target="#123" data-toggle="collapse">
+            <span class="navbar-toggler-icon ">
+                <i class="fa fa-bars" aria-hidden="true">
+                </i>
+            </span>
+        </a>
+        <div class="collapse navbar-collapse" id="123">   
         <div>
            <ul class="navbar-nav">
-               <li class="navbar-item"> 
+               <li class="navbar-item ml-auto "> 
                    <a class="nav-link" href="#"> Home </a> 
                 </li>
-               <li class="navbar-item">
+               <li class="navbar-item ml-auto ">
                    <a class="nav-link" href="#">AboutUs</a> 
                </li>
-               <li class="navbar-item">
+               <li class="navbar-item ml-auto ">
                     <a class="nav-link" href="#">ContactUs</a> 
                </li>
-               <li class="nav-item dropdown">
+               <li class="navbar-item dropdown ml-auto">
                    <a class="nav-link dropdown-toggle" href="" data-toggle="dropdown">More</a>
                    <div class="dropdown-menu">
-                       <a class="dropdown-item" href=""> 
+                       <a class="dropdown-item m-auto " href=""> 
                         <i class="fa fa-picture-o" aria-hidden="true"></i>
                          <small> Images</small>
                         </a>
-                       <a class="dropdown-item" href="">
+                       <a class="dropdown-item m-auto " href="">
                         <i class="fa fa-youtube-play" aria-hidden="true"></i>
                         <small>Videos</small>
                        </a>
-                       <a class="dropdown-item" href="">
+                       <a class="dropdown-item m-auto" href="">
                         <i class="fa fa-book" aria-hidden="true"></i>
                         <small>Books</small>
                        </a>
-                       <a class="dropdown-item" href="">
+                       <a class="dropdown-item m-auto" href="">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                            <small>Maps</small>
                         </a>
